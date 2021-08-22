@@ -5,8 +5,8 @@
         <title> Marisol Ramirez Portfolio - Full Stack Web Developer</title>
         <link rel="stylesheet" href="./assets/css/style.css" />
     </head>
+
     <body>
- 
 <!-- header & navigation -->        
         <header>
             <h1>
@@ -20,10 +20,10 @@
                         <a href="#about-me">About Me</a>
                     </li>
                     <li>
-                        <a href="work">Work</a>
+                        <a href="#work">Work</a>
                     </li>
                     <li>
-                        <a href="contact-me">Contact Me</a>
+                        <a href="#contact-me">Contact Me</a>
                     </li>
                     <li>
                         <a href="resume">Resume</a>
@@ -32,10 +32,10 @@
             </nav>
         </header>
 <!-- end of header & nav -->
-
+        <main class="page-wrap">
 <!-- hero/jumbotron -->
         <section class="hero">
-            <img src="./assets/images/marisol-profile-pic.JPG" alt="Marisol's profile picture" class="hero-pic" />
+            <img class="hero-pic"  src="./assets/images/marisol-profile-pic.JPG" alt="Marisol's profile picture"/>
             <div class="hero-title">Full Stack Developer</div>
         </section>
         
@@ -52,12 +52,49 @@
 <!-- my work/finished projects section -->
         <section id="work" class="work">
             <h2 class="section-title">Work</h2>
+            <div class="grid-container">
+                <!-- Feature Project #1 -->
+                <a class="grid-item run-buddy" href="https://MarisolRamirez1031.github.io/run-buddy/">
+                  <div>
+                    <h3>Run Buddy</h3>
+                    <span>HTML, CSS</span>
+                  </div>
+                </a>
+                <!-- Project #2 -->
+                <a class="grid-item horiseon" href="https://marisolramirez1031.github.io/horiseon-code-refactor/">
+                  <div>
+                    <h3>Horiseon</h3>
+                    <span>HTML Semantics, CSS</span>
+                  </div>
+                </a>
+                <!-- Project #3 -->
+                <a class="grid-item portfolio" href="https://github.com/MarisolRamirez1031">
+                  <div>
+                    <h3>Portfolio</h3>
+                    <span>HTML, CSS</span>
+                  </div>
+                </a>
+                 <!-- Project #4 -->
+                <a class="grid-item hacker" href="https://github.com/MarisolRamirez1031">
+                  <div>
+                    <h3>Future Project</h3>
+                    <span>HTML,CSS</span>
+                  </div>
+                </a>
+                 <!-- Project #5 -->
+                <a class="grid-item password" href="https://github.com/MarisolRamirez1031">
+                  <div>
+                    <h3>Password</h3>
+                    <span>HTML, CSS</span>
+                  </div>
+                </a>
+              </div>
         </section>
 
 <!-- contact me section -->        
         <section id="contact-me" class="contact-me">
-            <h2 class="section-title" Contact Me</h2>
-            <div>
+            <h2 class="section-title">Contact Me</h2>
+            <div class="contact-info">
                 <a href="mailto:marisol_ramirez21@icloud.com">Email</a>
                 <a href="https://github.com/MarisolRamirez1031">GitHub</a>
             </div>
@@ -67,5 +104,6 @@
         <footer>
             <h2>❤️ Made by Marisol Ramirez</h2>
         </footer>
+        </main>
     </body>
 </html>
