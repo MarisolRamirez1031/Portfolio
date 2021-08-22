@@ -35,7 +35,7 @@ header nav {
 }
 
 header nav ul {
-    display: flex;
+    display:flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
@@ -45,17 +45,20 @@ header nav ul {
 header nav ul li a {
     padding: 5px 10px;
     font-weight: lighter;
-    font-size: x-large;
+    font-size: 1.50vw;
     text-align: center;
     text-shadow: 0 0 10px rgba(153, 153, 153, 0.5);
 }
 
 header nav ul li a:hover {
-    background-color: lightgrey;
+    background:lightgrey;
     color: #002766;
     border-radius: 15px;
     text-shadow: none;
 }
+
+/* hero styles start*/
+
 
 /* footer styles */
 footer {
@@ -67,4 +70,9 @@ footer {
     align-items: center;
     flex-wrap: wrap;
     color: #39a6b2;
+}
+
+footer h2 {
+    font-size: 30px;
+    margin: 0;
 }
