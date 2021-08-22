@@ -1,0 +1,23 @@
+
+body {
+    font-family: Tahoma, Helvetica, Arial, sans-serif;
+    background-color: lightgrey;
+}
+
+/* apply styles to the header */
+header {
+    padding: 20px 35px;
+    background-color: gray;
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: #0336a3;
+    margin: 0;
+}
+
+header a {
+    color: #0336a3;
+}
+
