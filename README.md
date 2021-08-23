@@ -42,7 +42,7 @@ THEN I am presented with a responsive layout that adapts to my viewport
 https://github.com/MarisolRamirez1031/Portfolio
 
 ## Link to Deployed Application
-
+https://marisolramirez1031.github.io/Portfolio/
 
 # Screenshot
 
