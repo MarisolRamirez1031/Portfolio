@@ -204,6 +204,10 @@ main {
     background-image: url("../images/horiseon-code-refactor_index.html.png");
 }
 
+.portfolio {
+    background-image: url("../images/portfolio.png");
+}
+
 .hacker {
     background-image: url("../images/hackers.jpeg");
 }
