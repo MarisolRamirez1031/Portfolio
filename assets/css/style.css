@@ -27,8 +27,12 @@ header h1 {
 }
 
 header a {
-    color: #39a6b2;
+    color: #575555;
     text-decoration: none;
+}
+
+.name {
+    color: #575555;
 }
 
 header nav {
@@ -46,6 +50,7 @@ header nav ul {
 }
 
 header nav ul li a {
+    color: #39a6b2;
     padding: 5px 10px;
     font-weight: lighter;
     font-size: 1.50vw;
@@ -114,7 +119,7 @@ main {
      margin-right: auto;
  }
 
- .section-title {
+/*.section-title {
      margin: 25px 0;
      padding: 10px 0;
      display: flex;
@@ -122,15 +127,27 @@ main {
      flex-wrap: wrap;
      align-items: stretch;
      justify-content: space-between;
- }
+ }*/
 
- .section-title > h2 {
+ /*.section-title, h2 {
     flex: 0 0 20%;
     text-align: right;
     padding-right: 15px;
-    border-right: 2px #002766;
-    font-size: vw;
+    border-right: 2px #575555;
+    font-size: 25px;
     line-height: 1.1;
+}*/
+.section-title {
+    font-size: 38px;
+    width: 20%;
+    display: flex;
+    flex: initial;
+    justify-content: center;
+    padding-right: 15px;
+    border-right: solid 5px black;
+    text-align: right;
+    margin: 20px 0;
+    color: black;
 }
 
 .section-title > div {
@@ -156,7 +173,7 @@ main {
     border: 2px solid #39a6b2;
     grid-column: span 6;
     background-color: #575555;
-    color: var(--primary);
+    color: black;
     min-height: 100px;
     display: flex;
     align-items: flex-end;
@@ -178,7 +195,7 @@ main {
 }
 
 .grid-item div {
-    background-color: none;
+    background-color: #39a6b2;
     padding: 8px 10px;
 }
 
@@ -248,14 +265,17 @@ footer h2 {
 MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 @media screen AND (max-width: 980px) {
     header {
-        padding: 0;
+        padding: 0 0 10px 0;
         justify-content: center;
         position: relative;
+        text-align: center;
     }
 
     header h1 {
         width: 100%;
-        text-align: center;
+        padding: 5px;
+        margin-bottom: 10px;
+        font-size: 10vw;
     }
 
     header nav ul {
@@ -268,9 +288,26 @@ MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
     }
 
     .hero {
-        justify-content: space-around;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        padding-left: 50px;
     }
 
+    .page-section > h2 {
+        border-right: none;
+        border-bottom: 4px solid #002766;
+        margin-bottom: 20px;
+        padding-bottom: 10px;
+        text-align: left;
+        font-size: 7vw;
+    }
+
+    .page-section > h2,
+    .page-section > div {
+        flex: 0 0 100%;
+    }
 }
 
 /* MEDIA QUERY FOR TABLETS AND SMALLER */
