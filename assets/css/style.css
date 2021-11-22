@@ -216,6 +216,14 @@ main {
     background-image: url("../images/password-generator.jpeg");
 }
 
+.secondproject {
+    background-image: url("../images/byteme-ecommerce.herokuapp.com_.png");
+}
+
+.readmegen {
+    background-image: url("../images/r.jpeg");
+}
+
 /* contact me section styles */
 .contact-me {
     display: flex;
